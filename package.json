@@ -1,0 +1,18 @@
+{
+  "name": "playground_credentials",
+  "private": true,
+  "scripts": {
+    "build": "NITRO_PRESET=cloudflare_pages nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@auth/core": "^0.17.0",
+    "@hebilicious/authjs-nuxt": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^0.8.5",
+    "nuxt": "3.7.4"
+  }
+}
